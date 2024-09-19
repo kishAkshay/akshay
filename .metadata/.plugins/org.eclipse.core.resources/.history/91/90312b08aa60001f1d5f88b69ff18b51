@@ -1,0 +1,24 @@
+package Java_Basics;
+
+
+	interface Demo{
+		void disp();
+		void test();
+	}
+	class Sample implements Demo {
+		public void disp() {
+			System.out.println("HI");
+		}
+			public void test() {
+				System.out.println("java");
+			}
+		}
+	public class Abstract_Interface1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Sample s1 = new Sample();
+		s1.disp();
+		s1.test();
+	}
+
+}
