@@ -8,8 +8,7 @@ public class Lauch_browser {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
-		/*WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/");
 		@Nullable
@@ -18,23 +17,9 @@ public class Lauch_browser {
 		@Nullable
 		String CurrenturlOfPage = driver.getCurrentUrl();
 		System.out.println(CurrenturlOfPage);
-		@Nullable
-		String PageSource = driver.getPageSource();
-		System.out.println(PageSource);
 		Thread.sleep(2000);
 		//driver.close();
 		driver.quit();
-		*/
-		
-		//Launch the fire fox browser
-		 WebDriver driver = new FirefoxDriver();
-		 driver.manage().window().maximize();
-		 driver.get("https://rahulshettyacademy.com/");
-		 
-		
-		
-		 
-		 
 		
 	}
 
